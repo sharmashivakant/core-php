@@ -1,0 +1,3 @@
+[21-Jun-2018 10:58:37 UTC] PHP Warning:  scandir(/home/boldidentities/public_html/lms/admin/vendors/ckeditor/plugins/zsuploader/images/Lessons/): failed to open dir: No such file or directory in /home/boldidentities/public_html/dev/mattinson/mp_admin_92764/widgets/ckeditor/plugins/zsuploader/uploader.php on line 352
+[21-Jun-2018 10:58:37 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/boldidentities/public_html/dev/mattinson/mp_admin_92764/widgets/ckeditor/plugins/zsuploader/uploader.php on line 352
+[21-Jun-2018 10:58:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/boldidentities/public_html/dev/mattinson/mp_admin_92764/widgets/ckeditor/plugins/zsuploader/uploader.php on line 358

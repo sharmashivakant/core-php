@@ -1,0 +1,38 @@
+:root {
+    --yellow: #ffff00;
+    --green: #3BFF3E;
+    --blue: #00BCFB;
+    --black: #000;
+    --pink: #FF00B5;
+    --red: #ff0a47;
+    --white: #fff;
+    --grey:#F2F2F2;
+    --darkgrey: #6C6C6C;
+    --greySlight: #989898;
+
+    --h1-font-size: 121px;
+    --h1-line-height: 165px;
+
+    --h2-font-size: 81px;
+    --h2-line-height: 110px;
+
+    --h3-font-size: 54px;
+    --h3-line-height: 74px;
+
+    --h4-font-size: 36px;
+    --h4-line-height: 49px;
+
+    --h5-font-size: 24px;
+    --h5-line-height: 33px;
+
+    --heading-font-size: 20px;
+    --heading-line-height: 40px;
+
+    --body-font-size: 16px;
+    --body-line-height: 32px;
+
+    --btn-font-size: 16px;
+    --btn-line-height: 23px;
+
+    --font-family-OS: 'Open Sans', sans-serif;
+}

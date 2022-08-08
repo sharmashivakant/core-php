@@ -1,0 +1,137 @@
+.drop_uploader.drop_zone {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.drop_uploader.drop_zone .text {
+    display: block;
+}
+
+.drop_uploader.drop_zone.hover {
+    border: none;
+}
+
+.drop_uploader.drop_zone .text_wrapper {
+    width: 100%;
+    min-height: 50px;
+    background: #f3f3f3;
+    border: thin dashed #d2d2d2;
+    width: 100%;
+    font-size: 18px;
+    color: #3f4048;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.drop_uploader.drop_zone span.bfile {
+    float: left;
+    margin-top: 20px;
+    width: 48%;
+    text-align: center;
+}
+
+.drop_uploader.drop_zone span.bfile a {
+    color: #3f4048;
+    text-decoration: underline;
+}
+
+.drop_uploader.drop_zone span.bfile a:hover {
+    text-decoration: none;
+}
+
+.drop_uploader.drop_zone .text_wrapper i {
+    display: none;
+}
+
+.drop_uploader.drop_zone .text {
+    font-size: 15px;
+    color: #585858;
+}
+
+.drop_uploader.drop_zone ul.files {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    list-style: none;
+}
+
+.drop_uploader.drop_zone ul.files li {
+    font-size: 18px;
+    color: #000000;
+    background-color: #f5f5f5;
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+    margin: 0;
+    padding: 5px;
+}
+
+.drop_uploader.drop_zone ul.files.thumb {
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0px;
+    overflow: auto;
+    padding: 0px 15px;
+}
+
+.drop_uploader.drop_zone ul.files.thumb li {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.drop_uploader.drop_zone ul.files.thumb li div.thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+    background-size: cover;
+    margin: 0 auto;
+    border: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.drop_uploader.drop_zone ul.files.thumb li div.thumbnail i {
+    font-size: 48px;
+    position: relative;
+    top: calc(50% - 24px);
+    color: #999999;
+}
+
+.drop_uploader.drop_zone ul.files.thumb li span.title {
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.drop_uploader.drop_zone ul.files li:nth-child(even) {
+    background-color: transparent;
+}
+
+.drop_uploader.drop_zone ul.files li i {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    margin: 0px 10px;
+}
+
+.drop_uploader.drop_zone .errors p {
+    color: #FF0000;
+}
+
+.drop_uploader.drop_zone input[type=file] {
+    display: none;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}

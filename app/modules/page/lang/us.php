@@ -1,0 +1,19 @@
+<?php
+
+return [
+    "FINDJOB_BUTTON"=>" USA FIND ME A JOB",
+    "LEARNMORE_BUTTON"=>"USA Learn More",
+    "FINDCANDIDATE_BUTTON"=>"USA find me a cANDIDATE",
+    "IAMCLIENT_BUTTON"=>"USA I am a client",
+    "IAMCANDIDATE_BUTTON"=>"USA I am a candidate",
+    "READMORE_BUTTON"=>"USA READ MORE",
+    "READLESS_BUTTON"=>"USA READ Less",
+    "DOWNLOADPDF_BUTTON"=>"USA DOWNLOAD PDF",
+    "FORClients_TITLE"=>"USA For Clients",
+    "FORCANDIDATES_TITLE"=>"USA For Candidates",
+    "INCLUDES_TITLE"=>"USA INCLUDES",
+    "CURRENTJOBS_TITLE"=>"USA Current Jobs",
+    "MOREJOBS_TITLE"=>"USA VIEW MORE JOBS",
+    "FORCANDIDATES_TITLE"=>"USA For Candidates",
+    
+];
